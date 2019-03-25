@@ -83,3 +83,4 @@ node_modules
 
 # Mailin tmp directory
 .tmp
+package-lock.json
