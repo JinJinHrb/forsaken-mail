@@ -16,9 +16,9 @@ mailin.on('error', function(err) {
 
 /* Event emitted after a message was received and parsed. */
 mailin.on('message', function (connection, data, content) {
-    console.log(new Date(), 'message connection ->', data);
+    // console.log(new Date(), 'message connection ->', data);
     console.log(new Date(), 'message data ->', data);
-    console.log(new Date(), 'message content ->', content);
+    // console.log(new Date(), 'message content ->', content);
     /* Do something useful with the parsed message here.
      * Use parsed message `data` directly or use raw message `content`. */
 });
