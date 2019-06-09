@@ -2,7 +2,8 @@
   "mailin": {
     "host": "0.0.0.0",
     "port": 25,
-    "disableWebhook": true
+    "disableWebhook": false,
+    "webhook":"http://fw.591wisflow.com/forsaken_mail"
   },
   "host": "disposable.dhc-app.com"
 }
