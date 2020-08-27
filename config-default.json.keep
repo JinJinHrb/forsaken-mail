@@ -3,7 +3,7 @@
     "host": "0.0.0.0",
     "port": 25,
     "disableWebhook": false,
-    "webhook": "http://localhost:8085/forsaken_mail"
+    "webhook": "http://fw.591wisflow.com/forsaken_mail"
   },
-  "host": "is.591wisflow.com"
+  "host": "disposable.dhc-app.com"
 }

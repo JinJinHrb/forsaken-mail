@@ -11,7 +11,7 @@ let config = require(path.join(__dirname, '..', 'config-default.json'));
 mailin.start(config.mailin);
 
 mailin.on('error', function(err) {
-  console.error(new Date(), err.stack);
+  console.error(new Date(), err);
 });
 
 /* Event emitted after a message was received and parsed. */
